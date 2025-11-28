@@ -1,16 +1,17 @@
 
 import time
 
-PIPELINE = 'pipeline.txt'
+REQUEST = 'request.txt'
+REPLY = 'response.txt'
 
 
-with open(PIPELINE, 'w') as f:
+with open(REQUEST, 'w') as f:
     f.write('snowy')
 
 time.sleep(1)
 
 
-with open(PIPELINE, 'r', encoding='utf-8') as f:
+with open(REPLY, 'r', encoding='utf-8') as f:
     emoji = f.read()
 
 
