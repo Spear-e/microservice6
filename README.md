@@ -14,7 +14,7 @@ The reply will be written to response.txt
 
 EXAMPLE REPLY:
 
-'☀'
+'❄'
 
 *IMPORTANT* 
 
